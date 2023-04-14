@@ -53,7 +53,7 @@ const Slider = () => {
                   type="radio"
                   name="radio-button"
                   value={radioIdx}
-                  checked={idx === radioIdx}
+                  checked={index === radioIdx}
                   onChange={handleChange}
                 />
               ))}
