@@ -11,7 +11,7 @@ const Select = ({
   name,
   titleEmpty,
   label,
-  type = "normal",
+  type = "multiple",
 }) => {
   const [value, setValue] = useState();
   const [collapsed, setCollapsed] = useState(true);
