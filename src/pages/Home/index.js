@@ -124,7 +124,7 @@ const Page = () => {
           imageSrc={lastEvent?.cover}
           title={lastEvent?.title}
           date={new Date(lastEvent?.date)}
-          small='true'
+          small
           label="boom"
         />}
       </div>
